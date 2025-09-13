@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/budget/budget",
+    "pages/analysis/analysis"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "记账助手",
+    "navigationBarTextStyle": "black"
+  }
+}
