@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="input-row">
+    <input type="number" placeholder="金额" bindinput="onAmountInput" value="{{amount}}"/>
+  </view>
+  <view class="input-row">
+    <input placeholder="分类" bindinput="onCategoryInput" value="{{category}}"/>
+  </view>
+  <button class="button" type="primary" bindtap="addExpense">记一笔</button>
+</view>
