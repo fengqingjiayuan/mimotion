@@ -1,0 +1,5 @@
+<view class="card">
+  <view>查课系统登录</view>
+  <input placeholder="请输入姓名" bindinput="onInputName" />
+  <button class="btn-primary" loading="{{loading}}" bindtap="onLogin">微信一键登录</button>
+</view>

@@ -1,0 +1,5 @@
+<view class="card">
+  <view>记录ID：{{id}}</view>
+  <textarea placeholder="处理备注" bindinput="onInputNote" />
+  <button class="btn-primary" bindtap="markFollowed">标记已跟进</button>
+</view>

@@ -1,0 +1,8 @@
+<view class="card">
+  <view>查课日期：{{form.inspect_date}}</view>
+  <input placeholder="校区" />
+  <input placeholder="班级" />
+  <input placeholder="课程" />
+  <textarea placeholder="异常说明（如有）" bindinput="onIssueDetailInput" />
+  <button class="btn-primary" loading="{{submitting}}" bindtap="onSubmit">提交</button>
+</view>

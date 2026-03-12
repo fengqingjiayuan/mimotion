@@ -1,0 +1,1 @@
+textarea { min-height: 180rpx; border: 1rpx solid #ddd; padding: 16rpx; border-radius: 10rpx; margin: 16rpx 0; }

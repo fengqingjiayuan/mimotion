@@ -1,0 +1,4 @@
+<view class="card" wx:for="{{records}}" wx:key="_id">
+  <view>{{item.inspect_date}} {{item.course_name}}</view>
+  <view>状态：{{item.has_issue ? '异常' : '正常'}}</view>
+</view>
