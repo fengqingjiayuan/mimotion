@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/auth/index",
+    "pages/home/index",
+    "pages/form/index",
+    "pages/records/index",
+    "pages/admin-dashboard/index",
+    "pages/admin-list/index",
+    "pages/admin-detail/index",
+    "pages/admin-stats/index",
+    "pages/profile/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "查课上报",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f5f6fa"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

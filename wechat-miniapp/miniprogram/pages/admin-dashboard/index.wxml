@@ -1,0 +1,6 @@
+<view class="card">
+  <view>今日已提交老师：{{teacherSubmitted}}</view>
+  <view>查课总数：{{totalCount}}</view>
+  <view>异常数：{{issueCount}}</view>
+  <view>待跟进：{{followUpCount}}</view>
+</view>

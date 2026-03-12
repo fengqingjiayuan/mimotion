@@ -1,0 +1,2 @@
+input, textarea { margin-top: 16rpx; border: 1rpx solid #ddd; padding: 16rpx; border-radius: 10rpx; }
+textarea { min-height: 160rpx; }

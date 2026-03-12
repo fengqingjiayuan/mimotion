@@ -1,0 +1,4 @@
+<view class="card" wx:for="{{list}}" wx:key="_id" data-id="{{item._id}}" bindtap="goDetail">
+  <view>{{item.inspect_date}} {{item.inspector_name}}</view>
+  <view>{{item.campus}} {{item.class_name}} {{item.course_name}}</view>
+</view>

@@ -1,0 +1,6 @@
+<view class="card">
+  <view>今日已提交：{{todaySubmitted}}</view>
+  <view>今日异常：{{todayIssueCount}}</view>
+  <button class="btn-primary" bindtap="goForm">开始查课</button>
+  <button bindtap="goRecords">我的记录</button>
+</view>
