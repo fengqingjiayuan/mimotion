@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="input-row">
+    <input type="number" placeholder="输入预算" bindinput="onBudgetInput" value="{{budget}}"/>
+  </view>
+  <button class="button" type="primary" bindtap="saveBudget">保存预算</button>
+</view>

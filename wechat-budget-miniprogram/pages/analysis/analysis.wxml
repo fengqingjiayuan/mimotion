@@ -1,0 +1,8 @@
+<view class="container">
+  <view>预算：{{budget}}</view>
+  <view>已花费：{{total}}</view>
+  <view>剩余：{{remaining}}</view>
+  <view class="input-row" wx:for="{{summary}}" wx:key="category">
+    <view>{{item.category}}: {{item.amount}}</view>
+  </view>
+</view>
